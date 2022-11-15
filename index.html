@@ -162,8 +162,8 @@
                 />
                 <div class="person-box__name--position">
                   <figcaption>
-                    <div class="person-box__job--position">
-                      <strong class="person-box__name">John Doe</strong> Product
+                    <div class="box__job--position">
+                      <strong class="box__name">John Doe</strong> Product
                       Designer
                     </div>
                   </figcaption>
@@ -189,8 +189,8 @@
                   height="260"
                 />
                 <figcaption>
-                  <div class="person-box__job--position">
-                    <strong class="person-box__name">John Doe</strong> Frontend
+                  <div class="box__job--position">
+                    <strong class="box__name">John Doe</strong> Frontend
                     Developer
                   </div>
                 </figcaption>
@@ -216,8 +216,8 @@
                   height="260"
                 />
                 <figcaption>
-                  <div class="person-box__job--position">
-                    <strong class="person-box__name">John Doe</strong> Marketing
+                  <div class="box__job--position">
+                    <strong class="box__name">John Doe</strong> Marketing
                   </div>
                 </figcaption>
                   <ul class="list-styling">
@@ -241,8 +241,8 @@
                   height="260"
                 />
                 <figcaption>
-                  <div class="person-box__job--position">
-                    <strong class="person-box__name">John Doe</strong> UI Designer
+                  <div class="box__job--position">
+                    <strong class="box__name">John Doe</strong> UI Designer
                   </div>
                 </figcaption>
                   <ul class="list-styling">
@@ -291,19 +291,19 @@
         <ul class="list-styling">
           <div  class="footer__contacts">
           <li>
-            <a href="mailto:info@example.com" class="footer__contacts-data"
+            <a href="mailto:info@example.com" class="footer__contacts--data"
               >info@example.com</a
             >
           </li>
 
           <li>
-            <a href="tel:+48111111111" class="footer__contacts-data"
+            <a href="tel:+48111111111" class="footer__contacts--data"
               >+48 111 111 111</a
             >
           </li></div>
         </ul></div>
         <div class="footer__social-media">
-          <p class="footer__social-media-title">DOŁĄCZ DO NAS</p>
+          <p class="footer__social-media--title">DOŁĄCZ DO NAS</p>
           <ul class="list-styling">
              <li><a href="#" class="link__social-media"
             ><svg class="social-media__icon" width="20" height="20"><use href="./images/icons.svg.svg#icon-instagram-2"></use></svg></a></li>
@@ -320,7 +320,7 @@
          <h3 class="form-newsletter__header" >Zapisz się do newslettera</h3class>
            
 <fieldset class="form-newsletter__fieldset" >
- <label for="email" class="modal-label"></label>
+ <label for="email" class="form-newsletter__label"></label>
   
     <input name="email-address" class="form-newsletter__input" type="email" id="newsletter" placeholder="E-mail" /></fieldset>
      <div class="form-newsletter__button">
@@ -341,34 +341,34 @@
 
 <div class="modal-content">
   <button type="button" class="close-button" data-modal-close>X</button>
-<form class="modal-form" name="PersonalData" autocomplete="on" novalidate>
-  <h3 class="form-header">Zostaw swoje dane w formularzu poniżej</h3>
+<form class="form" name="PersonalData" autocomplete="on" novalidate>
+  <h3 class="form__header">Zostaw swoje dane w formularzu poniżej</h3>
  
-<fieldset class="fieldset-form" >
- <label for="name" class="modal-label">Imię</label>
-     <input name="name" class="form-input" type="text" id="name" />
-    <svg class="form-icon" width="20" height="20"><use href="./images/icons.svg.svg#person-icon"></use></svg></fieldset>
+<fieldset class="form__fieldset" >
+ <label for="name" class="form__label">Imię</label>
+     <input name="name" class="form__input" type="text" id="name" />
+    <svg class="form__icon" width="20" height="20"><use href="./images/icons.svg.svg#person-icon"></use></svg></fieldset>
    
-<fieldset class="fieldset-form" >
- <label for="phone" class="modal-label">Telefon</label>
-     <svg class="form-icon" width="20" height="20"><use href="./images/icons.svg.svg#phone-icon"></use></svg>
-    <input name="phone-number" class="form-input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="phone" /></fieldset>
+<fieldset class="form__fieldset" >
+ <label for="phone" class="form__label">Telefon</label>
+     <svg class="form__icon" width="20" height="20"><use href="./images/icons.svg.svg#phone-icon"></use></svg>
+    <input name="phone-number" class="form__input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="phone" /></fieldset>
   
-<fieldset class="fieldset-form" >
- <label for="email" class="modal-label">Email</label>
-    <input name="email-address" class="form-input" type="email" id="email" />
-      <svg class="form-icon" width="20" height="20"><use href="./images/icons.svg.svg#email-icon"></use></svg></fieldset>
+<fieldset class="form__fieldset" >
+ <label for="email" class="form__label">Email</label>
+    <input name="email-address" class="form__input" type="email" id="email" />
+      <svg class="form__icon" width="20" height="20"><use href="./images/icons.svg.svg#email-icon"></use></svg></fieldset>
  
-<fieldset class="fieldset-form-textarea" >
- <label  class="modal-label">Komentarz</label>
+<fieldset class="fieldset-form__textarea" >
+ <label  class="form__label">Komentarz</label>
     <textarea name="comment" rows="5"
-  cols="30" class="form-textarea" placeholder="Wprowadź tekst"></textarea></fieldset>
+  cols="30" class="form__textarea" placeholder="Wprowadź tekst"></textarea></fieldset>
   <label class="legal-checkbox">
     <input type="checkbox" id="legal" />
     <span class="checkmark"></span>
     Oświadczam iż akceptuję <span class="checkbox-conditions" >Regulamin</span> i <span class="checkbox-conditions">Politykę Prywatności</span>.
   </label>
-  <input type="submit" value="Wyślij" class="form-submit" />
+  <input type="submit" value="Wyślij" class="form__submit" />
 </form></div>
     </div>
       <script src="./js/modal.js"></script>
