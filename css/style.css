@@ -32,7 +32,7 @@ body {
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
-.logo {
+.nav-menu__logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -42,13 +42,13 @@ body {
   color: var(--logo-color);
   text-decoration: none;
   display: flex;
-  /* justify-content: space-between; */
+
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.menu-styling {
+.nav-menu {
   background-color: var(--white-content);
 
   display: inline-flex;
@@ -56,7 +56,7 @@ body {
   align-items: center;
 }
 
-.studio-styling {
+.nav-menu__studio {
   color: black;
 }
 .menu {
@@ -143,7 +143,7 @@ body {
 .link:visited {
   text-decoration: none;
 }
-.first-background {
+.header-banner {
   background: linear-gradient(
       59deg,
       rgba(0, 0, 0, 0.422),
@@ -176,7 +176,7 @@ body {
   justify-content: center;
   margin-inline: 500px;
 }
-.main-styling {
+.header-banner__title {
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -185,11 +185,11 @@ body {
   margin-inline: 200px;
 }
 
-.first-part {
+.section__first-part {
   background-color: var(--white-content);
   padding-inline: 100px;
 }
-.lorem {
+.our-assets {
   display: flex;
   justify-content: center;
 }
@@ -199,7 +199,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.text-header {
+.our-assets__text-header {
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -208,7 +208,7 @@ body {
   color: var(--header-color);
 }
 
-.description {
+.our-assets__description {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -220,12 +220,12 @@ body {
   display: inline-flex;
 }
 
-.header-wrapper {
+.our-occupation__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.picture-header {
+.our-occupation__header {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -236,18 +236,18 @@ body {
   align-self: center;
 }
 
-.image-styling {
+.image {
   display: inline-flex;
   padding-left: 30px;
 }
-.team-header {
+.our-team__header {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
 }
-.second-part {
+.our-team {
   background-color: var(--section-color);
   height: 648px;
   width: 1200px;
@@ -255,7 +255,7 @@ body {
   top: 1449px;
   border-radius: 0px;
 }
-.team-members {
+.our-team__members {
   width: 1200px;
   display: flex;
 }
@@ -274,11 +274,11 @@ body {
   box-shadow: -1px 19px 34px 6px #ababab;
 }
 
-.name-position {
+.person-box__name--position {
   display: flex;
 }
 
-.name-styling {
+.person-box__name {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -289,7 +289,7 @@ body {
   display: block;
   justify-content: baseline;
 }
-.job-position {
+.person-box__job--position {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -311,17 +311,33 @@ body {
   display: flex;
   position: relative;
 }
-.logo-footer {
+.footer__logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--logo-color);
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo--footer {
   display: block;
   padding-top: 20px;
 }
-.studio-styling-second {
+.logo__studio-second {
   color: var(--white-content);
 }
-.contact-footer:hover {
+.footer__contacts-data:hover {
   color: var(--logo-color);
 }
-.cont-footer {
+.footer__contacts {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -339,7 +355,7 @@ body {
   display: block;
 }
 
-.contact-footer {
+.footer__contacts-data {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -484,7 +500,7 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: var(--white-content);
 }
-.contact-link-icon {
+.menu__icon {
   margin-right: 8px;
 }
 .link:hover svg {
@@ -496,7 +512,7 @@ body {
   --color2: var(--logo-color);
   --color1: var(--logo-color);
 }
-.icon-background {
+.our-assets__icon {
   width: 270px;
 
   background-color: #f5f4fa;
@@ -505,8 +521,14 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-.clients-icon {
+.our-clients__header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.our-clients__icon {
   width: 170px;
 
   border: 1px solid #afb1b8;
@@ -516,10 +538,10 @@ body {
   justify-content: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-icon:hover {
+.our-clients__icon:hover {
   border: 1px solid var(--logo-color);
 }
-.social-media-icon {
+.social-media__icon {
   color: #afb1b8;
 
   --color3: #afb1b8;
@@ -529,7 +551,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-social:hover svg {
+.link__social-media:hover svg {
   color: var(--white-content);
   --color3: var(--white-content);
   border-radius: 50%;
@@ -542,7 +564,7 @@ body {
   color: var(--logo-color);
   --color1: var(--logo-color);
 }
-.social-title {
+.footer__social-media-title {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -551,13 +573,13 @@ body {
   text-align: left;
   color: var(--white-content);
 }
-.social-footer {
+.footer__social-media {
   margin-left: 50px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
-.footer-position {
+.footer__position {
   display: flex;
   flex-direction: column;
 }
@@ -605,7 +627,7 @@ body {
   transform: scale(0.7);
 }
 /* overlay na html */
-.overlay-picture {
+.our-occupation__overlay {
   height: 70px;
   width: 370px;
   background: #2f303acc;
@@ -823,7 +845,7 @@ body {
 .form-newsletter {
   position: absolute;
 }
-.newsletter-header {
+.form-newsletter__header {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -835,7 +857,7 @@ body {
 
   top: 50px;
 }
-.fieldset-newsletter {
+.form-newsletter__fieldset {
   display: flex;
   position: absolute;
 
@@ -847,7 +869,7 @@ body {
   width: 358px;
   border: 1px solid #ffffff4d;
 }
-.newsletter-input {
+.form-newsletter__input {
   line-height: 40px;
   margin-left: 10px;
   margin-top: 5px;
@@ -860,7 +882,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform;
 }
-.newsletter-input:focus {
+.form-newsletter__input:focus {
   outline: 0;
 }
 .fieldset-newsletter-input {
@@ -901,7 +923,7 @@ body {
   left: 230px;
 }
 
-.newsletter-button {
+.form-newsletter__button {
   margin-top: 20px;
   margin-left: 220px;
   position: relative;
