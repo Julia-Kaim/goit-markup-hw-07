@@ -1,0 +1,25 @@
+.box__name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--header-color);
+  margin-bottom: 5px;
+  display: block;
+  justify-content: baseline;
+}
+.box__job--position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--text-color);
+  padding-inline: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+  position: relative;
+  z-index: 10;
+}

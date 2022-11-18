@@ -1,0 +1,18 @@
+.contact-data {
+  color: var(--text-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  display: inline-flex;
+  padding-top: 32px;
+  margin-left: 227px;
+}
+.contact-data .link {
+  color: var(--text-color);
+  display: block;
+  padding: 10px;
+  margin: 0;
+}

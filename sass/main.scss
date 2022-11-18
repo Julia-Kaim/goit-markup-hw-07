@@ -1,5 +1,10 @@
 @import "./utilis/_variables";
 @import "./utilis/_active-site";
+@import "./utilis/_link";
+@import "./utilis/_list-styling";
+@import "./utilis/_button";
+@import "./utilis/_image";
+@import "./utilis/_card-set";
 
 @import "./components/_body";
 @import "./components/_container";
@@ -7,3 +12,11 @@
 @import "./components/_wrapper";
 @import "./components/_nav-menu";
 @import "./components/_menu";
+@import "./components/_header-banner";
+@import "./components/_contact-data";
+@import "./components/_our-assets";
+@import "./components/_our-occupation";
+@import "./components/_our-team";
+@import "./components/_person-box";
+@import "./components/_item-box";
+@import "./components/_box";

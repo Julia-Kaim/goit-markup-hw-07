@@ -1,0 +1,20 @@
+.person-box {
+  background-color: var(--white-content);
+  width: 270px;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 10px;
+
+  list-style: none;
+
+  padding: 0px;
+  border-radius: 4px;
+  box-shadow: -1px 19px 34px 6px #ababab;
+}
+
+.person-box__name--position {
+  display: flex;
+}
+
+
