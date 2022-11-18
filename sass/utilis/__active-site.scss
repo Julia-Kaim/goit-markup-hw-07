@@ -1,0 +1,12 @@
+.active-site {
+  position: relative;
+}
+.active-site::after {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  background-color: var(--logo-color);
+  bottom: -23px;
+  left: 10%;
+}
