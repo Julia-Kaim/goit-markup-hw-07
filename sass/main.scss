@@ -1,17 +1,17 @@
-@import "./utilis/_variables";
-@import "./utilis/_active-site";
-@import "./utilis/_link";
-@import "./utilis/_list-styling";
-@import "./utilis/_button";
-@import "./utilis/_image";
-@import "./utilis/_card-set";
-@import "./utilis/_logo";
-@import "./utilis/_overlay";
-@import "./utilis/_social-media";
-@import "./utilis/_backdrop";
-@import "./utilis/_is-hidden";
-@import "./utilis/_checkbox";
-@import "./utilis/_checkmark";
+@import "./utils/_variables";
+@import "./utils/_active-site";
+@import "./utils/_link";
+@import "./utils/_list-styling";
+@import "./utils/_button";
+@import "./utils/_image";
+@import "./utils/_card-set";
+@import "./utils/_logo";
+@import "./utils/_overlay";
+@import "./utils/_social-media";
+@import "./utils/_backdrop";
+@import "./utils/_is-hidden";
+@import "./utils/_checkbox";
+@import "./utils/_checkmark";
 
 @import "./components/_body";
 @import "./components/_container";
@@ -32,3 +32,5 @@
 @import "./components/_modal";
 @import "./components/_form";
 @import "./components/_form-newsletter";
+
+@import "node_modules/modern-normalize/modern-normalize.css";
