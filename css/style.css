@@ -1,5 +1,5 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
-:root {
+/* :root {
   --logo-color: #2196f3;
   --header-color: #212121;
   --text-color: #757575;
@@ -31,8 +31,8 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ececec;
-}
-.nav-menu__logo {
+} */
+/* .nav-menu__logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -58,7 +58,7 @@ body {
 
 .nav-menu__studio {
   color: black;
-}
+} */
 .menu {
   margin-left: 93px;
   font-style: normal;

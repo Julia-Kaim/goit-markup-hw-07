@@ -1,0 +1,27 @@
+.nav-menu__logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--logo-color);
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.nav-menu {
+  background-color: var(--white-content);
+
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu__studio {
+  color: black;
+}
