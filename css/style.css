@@ -818,7 +818,7 @@ body {
   border-color: #2196f3;
 } */
 /* Footer newsletter */
-/* .newsletterform-positioning {
+/* .form-newsletter__positioning {
   display: flex;
   margin-top: 50px;
 }
@@ -866,7 +866,7 @@ body {
 .form-newsletter__input:focus {
   outline: 0;
 }
-.fieldset-newsletter-input {
+.form-newsletter__fieldset--input {
   display: flex;
   position: relative;
   border: 0px;
@@ -878,7 +878,7 @@ body {
   height: 40px;
   width: 448px;
 }
-.newsletter-form-submit {
+.form-newsletter__submit {
   display: block;
   width: 200px;
   height: 50px;
@@ -897,7 +897,7 @@ body {
   margin-bottom: 55px;
   box-shadow: 0px 4px 4px 0px #00000026;
 }
-.newsletter-form-icon {
+.form-newsletter__icon {
   z-index: 2;
   position: absolute;
   top: -25px;
