@@ -1,7 +1,7 @@
 .active-site {
   position: relative;
-}
-.active-site::after {
+
+&::after {
   content: "";
   position: absolute;
   width: 53px;
@@ -9,4 +9,4 @@
   background-color: var(--logo-color);
   bottom: -23px;
   left: 10%;
-}
+} }

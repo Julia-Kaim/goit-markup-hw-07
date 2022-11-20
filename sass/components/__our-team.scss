@@ -1,10 +1,3 @@
-.our-team__header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
 .our-team {
   background-color: var(--section-color);
   height: 648px;
@@ -12,8 +5,16 @@
   left: 0px;
   top: 1449px;
   border-radius: 0px;
+
+&__header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
-.our-team__members {
+&__members {
   width: 1200px;
   display: flex;
+}
 }

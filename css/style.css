@@ -362,7 +362,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.button-portfolio {
+.button__portfolio {
   display: flex;
   justify-content: center;
   color: var(--header-color);
@@ -386,12 +386,12 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-portfolio:hover {
+.button__portfolio:hover {
   background-color: var(--logo-color);
   color: var(--white-content);
   box-shadow: -3px 12px 18px 5px #a6a6a6;
 }
-.button-portfolio:focus {
+.button__portfolio:focus {
   background-color: var(--logo-color);
   color: var(--white-content);
 } */
@@ -587,7 +587,7 @@ body {
   background-color: #ffffff;
 } */
 
-/* .close-button {
+/* .button__close {
   position: absolute;
   height: 30px;
   width: 30px;
