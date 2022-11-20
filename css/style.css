@@ -699,7 +699,7 @@ body {
     brightness(101%) contrast(91%);
 } */
 
-/* .fieldset-form__textarea {
+/* .form__fieldset--textarea {
   display: flex;
   position: relative;
   border: 0px;
@@ -814,7 +814,7 @@ body {
 .form__fieldset:focus-within {
   border-color: #2196f3;
 }
-.fieldset-form__textarea:focus-within {
+.form__fieldset--textarea:focus-within {
   border-color: #2196f3;
 } */
 /* Footer newsletter */
