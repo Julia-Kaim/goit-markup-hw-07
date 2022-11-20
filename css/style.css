@@ -538,10 +538,10 @@ body {
   border-radius: 50%;
   background-color: var(--logo-color);
 } */
-/* .link-clients {
+/* .our-clients__link {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-clients:hover svg {
+.our-clients__link:hover svg {
   color: var(--logo-color);
   --color1: var(--logo-color);
 } */

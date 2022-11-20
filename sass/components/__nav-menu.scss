@@ -1,4 +1,11 @@
-.nav-menu__logo {
+.nav-menu {
+  background-color: var(--white-content);
+
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+
+&__logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -14,14 +21,7 @@
   padding-bottom: 25px;
 }
 
-.nav-menu {
-  background-color: var(--white-content);
 
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-menu__studio {
+&__studio {
   color: black;
-}
+} }

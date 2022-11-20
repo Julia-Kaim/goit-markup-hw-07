@@ -7,8 +7,13 @@
   letter-spacing: 0.02em;
   list-style: none;
   display: inline-flex;
-}
-.menu .link {
+
+ &__icon {
+    margin-right: 8px;
+  }
+
+
+.link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -20,7 +25,4 @@
   display: block;
   padding: 10px;
   margin: 0;
-}
-.menu__icon {
-  margin-right: 8px;
-}
+}}
