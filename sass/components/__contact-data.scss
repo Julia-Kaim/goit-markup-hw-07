@@ -9,21 +9,22 @@
   display: inline-flex;
   padding-top: 32px;
   margin-left: 227px;
-}
-.contact-data .link {
-  color: var(--text-color);
-  display: block;
-  padding: 10px;
-  margin: 0;
-}
-.address {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: var(--white-content);
-  font-style: normal;
-  padding: 10px;
-  display: block;
+
+  & .link {
+    color: var(--text-color);
+    display: block;
+    padding: 10px;
+    margin: 0;
+  }
+  &__address {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--white-content);
+    font-style: normal;
+    padding: 10px;
+    display: block;
+  }
 }
