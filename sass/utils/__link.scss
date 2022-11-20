@@ -4,33 +4,33 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 
-&:hover {
-  color: var(--logo-color);
-}
+  &:hover {
+    color: var(--logo-color);
+  }
 
+  &:focus {
+    color: var(--logo-color);
+  }
+  &:active {
+    color: var(--logo-color);
+  }
+  &:visited {
+    text-decoration: none;
+  }
 
-&:focus {
-  color: var(--logo-color);
-}
-&:active {
-  color: var(--logo-color);
-}
-&:visited {
-  text-decoration: none;
-}}
-
-.link__social-media:hover svg {
-  color: var(--white-content);
-  --color3: var(--white-content);
-  border-radius: 50%;
-  background-color: var(--logo-color);
-}
-.link:hover svg {
-  color: var(--logo-color);
-  stroke: var(--logo-color);
-  --color5: var(--logo-color);
-  --color4: var(--logo-color);
-  --color3: var(--logo-color);
-  --color2: var(--logo-color);
-  --color1: var(--logo-color);
+  &__social-media:hover svg {
+    color: var(--white-content);
+    --color3: var(--white-content);
+    border-radius: 50%;
+    background-color: var(--logo-color);
+  }
+  &:hover svg {
+    color: var(--logo-color);
+    stroke: var(--logo-color);
+    --color5: var(--logo-color);
+    --color4: var(--logo-color);
+    --color3: var(--logo-color);
+    --color2: var(--logo-color);
+    --color1: var(--logo-color);
+  }
 }
