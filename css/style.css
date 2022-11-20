@@ -32,7 +32,7 @@ body {
   align-items: center;
   border-bottom: 1px solid #ececec;
 } */
-/* .nav-menu__logo {
+/* .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -56,7 +56,7 @@ body {
   align-items: center;
 }
 
-.nav-menu__studio {
+.logo__studio {
   color: black;
 } */
 /* .menu {
@@ -315,11 +315,11 @@ body {
   padding-bottom: 25px;
 } */
 
-/* .logo--footer {
+/* .logo__footer {
   display: block;
   padding-top: 20px;
 }
-.logo__studio-second {
+.logo__studio--second {
   color: var(--white-content);} */
 /* }
 .footer__contacts--data:hover {

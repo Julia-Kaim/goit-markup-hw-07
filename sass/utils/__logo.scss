@@ -1,6 +1,27 @@
-.logo--footer {
-  display: block;
-  padding-top: 20px;
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--logo-color);
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  &__studio {
+    color: black;
+  }
+
+  &__footer {
+    display: block;
+    padding-top: 20px;
+  }
+  &__studio--second {
+    color: var(--white-content);
+  }
 }
-.logo__studio-second {
-  color: var(--white-content);}
