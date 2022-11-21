@@ -9,7 +9,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--header-color);
+  color: $headerColor;
   width: 1600px;
 }
 .container {
@@ -39,7 +39,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--logo-color);
+  color: $logoColor;
   text-decoration: none;
   display: flex;
 
@@ -49,7 +49,7 @@ body {
 }
 
 .nav-menu {
-  background-color: var(--white-content);
+  background-color: $whiteContent;
 
   display: inline-flex;
   justify-content: space-between;
@@ -77,7 +77,7 @@ body {
   position: absolute;
   width: 53px;
   height: 4px;
-  background-color: var(--logo-color);
+  background-color: $logoColor;
   bottom: -23px;
   left: 10%;
 } */
@@ -88,7 +88,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   list-style: none;
-  color: var(--header-color);
+  color: $headerColor;
   text-decoration: none;
   display: block;
   padding: 10px;
@@ -100,20 +100,20 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover {
-  color: var(--logo-color);
+  color: $logoColor;
 }
 .link:focus {
-  color: var(--logo-color);
+  color: $logoColor;
 }
 .link:active {
-  color: var(--logo-color);
+  color: $logoColor;
 }
 .link:visited {
   text-decoration: none;
 } */
 
 /* .contact-data {
-  color: var(--text-color);
+  color: $textColor;
 
   font-size: 14px;
   font-weight: 500;
@@ -125,7 +125,7 @@ body {
   margin-left: 227px;
 }
 .contact-data .link {
-  color: var(--text-color);
+  color: $textColor;
   display: block;
   padding: 10px;
   margin: 0;
@@ -140,7 +140,7 @@ body {
     url(../images/background.jpg);
   background-size: cover;
 
-  color: var(--white-content);
+  color: $whiteContent;
   padding-top: 200px;
   height: 450px;
   width: 1200px;
@@ -149,11 +149,11 @@ body {
   border-radius: 0px;
 } */
 /* .button {
-  background-color: var(--logo-color);
-  color: var(--white-content);
+  background-color: $logoColor;
+  color: $whiteContent;
 
   border-radius: 4px;
-  border-color: var(--logo-color);
+  border-color: $logoColor;
   width: 200px;
   font-size: 16px;
   font-weight: 700;
@@ -174,7 +174,7 @@ body {
 } */
 
 /* .section__first-part {
-  background-color: var(--white-content);
+  background-color: $whiteContent;
   padding-inline: 100px;
 } */
 /* .our-assets {
@@ -193,7 +193,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--header-color);
+  color: $headerColor;
 }
 
 .our-assets__description {
@@ -202,7 +202,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--text-color);
+  color: $textColor;
 
   padding-right: 22px;
   display: inline-flex;
@@ -219,7 +219,7 @@ body {
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--header-color);
+  color: $headerColor;
   display: flex;
   align-self: center;
 } */
@@ -236,7 +236,7 @@ body {
   text-align: center;
 }
 .our-team {
-  background-color: var(--section-color);
+  background-color: $sectionColor;
   height: 648px;
   width: 1200px;
   left: 0px;
@@ -247,8 +247,8 @@ body {
   width: 1200px;
   display: flex;
 } */
-/* .person-box {
-  background-color: var(--white-content);
+/* .item__members {
+  background-color: $whiteContent;
   width: 270px;
 
   display: flex;
@@ -262,28 +262,28 @@ body {
   box-shadow: -1px 19px 34px 6px #ababab;
 }
 
-.person-box__name--position {
+.person-item__box--name--position {
   display: flex;
 }
 
-.box__name {
+.item__box--name {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--header-color);
+  color: $headerColor;
   margin-bottom: 5px;
   display: block;
   justify-content: baseline;
 }
-.box__position {
+.item__box--position {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--text-color);
+  color: $textColor;
   padding-inline: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -292,7 +292,7 @@ body {
   z-index: 10;
 } */
 /* .footer {
-  background-color: var(--background-color);
+  background-color: $backgroundColor;
   height: 252px;
   width: 1200px;
   margin: 0px;
@@ -306,7 +306,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--logo-color);
+  color: $logoColor;
   text-decoration: none;
   display: flex;
 
@@ -320,10 +320,10 @@ body {
   padding-top: 20px;
 }
 .logo__studio--second {
-  color: var(--white-content);} */
+  color: $whiteContent;} */
 /* }
 .footer__contacts--data:hover {
-  color: var(--logo-color);
+  color: $logoColor;
 }
 .footer__contacts {
   margin-top: 10px;
@@ -337,7 +337,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--white-content);
+  color: $whiteContent;
   font-style: normal;
   padding: 10px;
   display: block;
@@ -365,15 +365,15 @@ body {
 .button__portfolio {
   display: flex;
   justify-content: center;
-  color: var(--header-color);
-  background-color: var(--section-color);
+  color: $headerColor;
+  background-color: $sectionColor;
 
   height: 50px;
 
   left: 723px;
   top: 404px;
   border-radius: 4px;
-  border-color: var(--section-color);
+  border-color: $sectionColor;
   cursor: pointer;
 
   font-size: 16px;
@@ -387,13 +387,13 @@ body {
 }
 
 .button__portfolio:hover {
-  background-color: var(--logo-color);
-  color: var(--white-content);
+  background-color: $logoColor;
+  color: $whiteContent;
   box-shadow: -3px 12px 18px 5px #a6a6a6;
 }
 .button__portfolio:focus {
-  background-color: var(--logo-color);
-  color: var(--white-content);
+  background-color: $logoColor;
+  color: $whiteContent;
 } */
 /* 
 .card-set {
@@ -405,7 +405,7 @@ body {
   padding: 0;
   list-style: none;
 }
-.item-box {
+.item__box {
   height: 404px;
   width: 370px;
   border-radius: 0px;
@@ -414,7 +414,7 @@ body {
   position: relative;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-box:hover {
+.item__box:hover {
   box-shadow: 1px 4px 6px 0px #00000029;
 
   box-shadow: 0px 4px 4px 0px #0000000f;
@@ -423,7 +423,7 @@ body {
   box-shadow: -3px 12px 18px 11px #a6a6a6;
 }
 
-.item-box__images {
+.item__box--images {
   position: relative;
   top: 0;
   z-index: 1;
@@ -479,19 +479,19 @@ body {
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  background-color: var(--white-content);
+  background-color: $whiteContent;
 } */
 /* .menu__icon {
   margin-right: 8px;
 } */
 /* .link:hover svg {
-  color: var(--logo-color);
-  stroke: var(--logo-color);
-  --color5: var(--logo-color);
-  --color4: var(--logo-color);
-  --color3: var(--logo-color);
-  --color2: var(--logo-color);
-  --color1: var(--logo-color);
+  color: $logoColor;
+  stroke: $logoColor;
+  --color5: $logoColor;
+  --color4: $logoColor;
+  --color3: $logoColor;
+  --color2: $logoColor;
+  --color1: $logoColor;
 } */
 /* .our-assets__icon {
   width: 270px;
@@ -520,7 +520,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-clients__icon:hover {
-  border: 1px solid var(--logo-color);
+  border: 1px solid $logoColor;
 } */
 /* .social-media__icon {
   color: #afb1b8;
@@ -533,17 +533,17 @@ body {
 } */
 /* 
 .link__social-media:hover svg {
-  color: var(--white-content);
-  --color3: var(--white-content);
+  color: $whiteContent;
+  --color3: $whiteContent;
   border-radius: 50%;
-  background-color: var(--logo-color);
+  background-color: $logoColor;
 } */
 /* .our-clients__link {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-clients__link:hover svg {
-  color: var(--logo-color);
-  --color1: var(--logo-color);
+  color: $logoColor;
+  --color1: $logoColor;
 } */
 /* .footer__social-media--title {
   font-family: Roboto;
@@ -552,7 +552,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--white-content);
+  color: $whiteContent;
 }
 .footer__social-media {
   margin-left: 50px;
@@ -618,7 +618,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--white-content);
+  color: $whiteContent;
   position: relative;
   top: -74px;
   left: 30px;
@@ -797,14 +797,14 @@ body {
   display: block;
   width: 200px;
   height: 50px;
-  background-color: var(--logo-color);
+  background-color: $logoColor;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--white-content);
+  color: $whiteContent;
   border-radius: 4px;
   border: 0;
   margin-inline: 160px;
@@ -833,7 +833,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--white-content);
+  color: $whiteContent;
   text-transform: uppercase;
 
   top: 50px;
@@ -882,14 +882,14 @@ body {
   display: block;
   width: 200px;
   height: 50px;
-  background-color: var(--logo-color);
+  background-color: $logoColor;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--white-content);
+  color: $whiteContent;
   border-radius: 4px;
   border: 0;
   margin-inline: 160px;

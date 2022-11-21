@@ -2,7 +2,8 @@
   padding-block: 94px;
   margin: 0 auto;
   flex-basis: 100%;
-&__first-part {
-  background-color: var(--white-content);
-  padding-inline: 100px;
-} }
+  &__first-part {
+    background-color: $whiteContent;
+    padding-inline: 100px;
+  }
+}

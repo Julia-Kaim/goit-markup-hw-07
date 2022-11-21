@@ -7,7 +7,7 @@
     url(../images/background.jpg);
   background-size: cover;
 
-  color: var(--white-content);
+  color: $whiteContent;
   padding-top: 200px;
   height: 450px;
   width: 1200px;
@@ -15,11 +15,12 @@
   top: 80px;
   border-radius: 0px;
 
-&__title {
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  margin-inline: 200px;
-}}
+  &__title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-inline: 200px;
+  }
+}

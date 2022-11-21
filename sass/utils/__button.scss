@@ -1,9 +1,9 @@
 .button {
-  background-color: var(--logo-color);
-  color: var(--white-content);
+  background-color: $logoColor;
+  color: $whiteContent;
 
   border-radius: 4px;
-  border-color: var(--logo-color);
+  border-color: $logoColor;
   width: 200px;
   font-size: 16px;
   font-weight: 700;
@@ -22,15 +22,15 @@
   &__portfolio {
     display: flex;
     justify-content: center;
-    color: var(--header-color);
-    background-color: var(--section-color);
+    color: $headerColor;
+    background-color: $sectionColor;
 
     height: 50px;
 
     left: 723px;
     top: 404px;
     border-radius: 4px;
-    border-color: var(--section-color);
+    border-color: $sectionColor;
     cursor: pointer;
 
     font-size: 16px;
@@ -44,13 +44,13 @@
   }
 
   &__portfolio:hover {
-    background-color: var(--logo-color);
-    color: var(--white-content);
+    background-color: $logoColor;
+    color: $whiteContent;
     box-shadow: -3px 12px 18px 5px #a6a6a6;
   }
   &__portfolio:focus {
-    background-color: var(--logo-color);
-    color: var(--white-content);
+    background-color: $logoColor;
+    color: $whiteContent;
   }
   &__close {
     position: absolute;

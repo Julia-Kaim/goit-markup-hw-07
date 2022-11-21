@@ -1,5 +1,5 @@
 .contact-data {
-  color: var(--text-color);
+  color: $textColor;
 
   font-size: 14px;
   font-weight: 500;
@@ -11,7 +11,7 @@
   margin-left: 227px;
 
   & .link {
-    color: var(--text-color);
+    color: $textColor;
     display: block;
     padding: 10px;
     margin: 0;
@@ -22,7 +22,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: var(--white-content);
+    color: $whiteContent;
     font-style: normal;
     padding: 10px;
     display: block;
