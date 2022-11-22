@@ -42,15 +42,6 @@
       color: $logoColor;
     }
   }
-  &__social-media--title {
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: $whiteContent;
-  }
   &__social-media {
     margin-left: 50px;
     margin-top: 50px;
@@ -61,5 +52,14 @@
   &__position {
     display: flex;
     flex-direction: column;
+  }
+  .social-media__title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $whiteContent;
   }
 }

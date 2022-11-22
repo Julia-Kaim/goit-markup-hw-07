@@ -30,8 +30,8 @@
   }
 
   &__social-media:hover svg {
-    color: $whiteContent;
-    --color3: $whiteContent;
+    color: #ffffff;
+    --color3: #ffffff;
     border-radius: 50%;
     background-color: $logoColor;
   }
@@ -43,5 +43,5 @@
     --color3: $logoColor;
     --color2: $logoColor;
     --color1: $logoColor;
-}
+  }
 }

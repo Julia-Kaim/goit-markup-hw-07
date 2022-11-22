@@ -58,18 +58,7 @@
   &__input:focus {
     outline: 0;
   }
-  &__fieldset--input {
-    display: flex;
-    position: relative;
-    border: 0px;
-    border-radius: 5px;
-    padding: 0px;
-    margin-block: 40px;
-    margin-inline: 40px;
-    border: 1px solid #21212133;
-    height: 40px;
-    width: 448px;
-  }
+ 
 
   &__submit {
     display: block;
