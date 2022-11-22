@@ -48,7 +48,7 @@ body {
   padding-bottom: 25px;
 }
 
-.nav-menu {
+.nav {
   background-color: $whiteContent;
 
   display: inline-flex;
@@ -131,7 +131,7 @@ body {
   margin: 0;
 } */
 
-/* .header-banner {
+/* .header {
   background: linear-gradient(
       59deg,
       rgba(0, 0, 0, 0.422),
@@ -164,7 +164,7 @@ body {
   justify-content: center;
   margin-inline: 500px;
 } */
-/* .header-banner__title {
+/* .header__title {
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
