@@ -41,38 +41,6 @@
     box-shadow: 0px 1px 1px 0px #0000001f;
     box-shadow: -3px 12px 18px 11px #a6a6a6;
   }
-
-  &__box--images {
-    position: relative;
-    top: 0;
-    z-index: 1;
-  }
-
-  &__box--name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $headerColor;
-    margin-bottom: 5px;
-    display: block;
-    justify-content: baseline;
-  }
-  &__box--position {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $textColor;
-    padding-inline: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: block;
-    position: relative;
-    z-index: 10;
-  }
   &__members {
     background-color: $whiteContent;
     width: 270px;
@@ -88,3 +56,35 @@
     box-shadow: -1px 19px 34px 6px #ababab;
   }
 }
+
+  .box__images {
+    position: relative;
+    top: 0;
+    z-index: 1;
+  }
+
+  .box__name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $headerColor;
+    margin-bottom: 5px;
+    display: block;
+    justify-content: baseline;
+  }
+  .box__container {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $textColor;
+    padding-inline: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    position: relative;
+    z-index: 10;
+  }
